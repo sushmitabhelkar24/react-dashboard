@@ -56,7 +56,7 @@ function App() {
           />
           <div className="flex flex-col text-white text-xl pl-2">
             <h3>
-              <b>John Deo</b>
+              <b>Arya Jain</b>
             </h3>
             <h3>Student</h3>
           </div>
@@ -66,7 +66,7 @@ function App() {
       <div className="bg-amber-50 min-h-screen w-full">
         <div className="flex flex-row justify-between">
             <div>
-                <h1 className="font-bold text-3xl pl-2 pt-2">Welcome John!👍</h1>
+                <h1 className="font-bold text-3xl pl-2 pt-2">Welcome Arya!👍</h1>
                 <p className=" text-xl pl-2 pt-2">Continue your learning journey</p>
             </div>
             <div className="flex flex-row justify-around">
