@@ -13,6 +13,8 @@ import Cards from "./components/Cards.jsx";
 import reactImg from "./assets/react.png";
 import nodeImg from "./assets/node.jpg";
 import expressImg from "./assets/express.png";
+import Progress from "./components/Progress.jsx";
+import Quizzes from "./components/Quizzes.jsx";
 
 
 function App() {
@@ -79,11 +81,17 @@ function App() {
         </div>
 
         <div className="flex flex-row justify-around mt-6">
-          <Cards imgUrl={reactImg} name="React Js Basics" status="80%" btn="Continue" progress="no"/>
-          <Cards imgUrl={nodeImg} name="Node Js Basics" status="pending" btn="Start" progress="no"/>
-          <Cards imgUrl={expressImg} name="Express Js Basics" status="completed" btn="Review" progress="no"/>
+          <Cards imgUrl={reactImg} name="React Js Basics" status="80%" btn="Continue" progress="" variant="primary" bgvariant="upcoming"/>
+          <Cards imgUrl={nodeImg} name="Node Js Basics" status="pending" btn="Start" progress="" variant="secondary" bgvariant="new"/>
+          <Cards imgUrl={expressImg} name="Express Js Basics" status="completed" btn="Review" progress="" variant="tertiary" bgvariant="old"/>
         </div>
+
+      <div className="flex flex-row justify-around mt-10">
+        <Progress/>
+        <Quizzes/>
       </div>
+      </div>
+     
     </div>
   );
 }
